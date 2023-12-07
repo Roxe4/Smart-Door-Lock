@@ -100,9 +100,7 @@ String sendPhotoTelegram(){
     
    Serial.println("Connected to " + String(myDomain));
     
-    String head = "--IotCircuitHub\r\nContent-Disposition: form-data; name=\"chat_id\"; 
-    \r\n\r\n" + chatId + "\r\n--IotCircuitHub\r\nContent-Disposition: form-data; 
-    name=\"photo\"; filename=\"esp32-cam.jpg\"\r\nContent-Type: image/jpeg\r\n\r\n";
+    String head = "--IotCircuitHub\r\nContent-Disposition: form-data; name=\"chat_id\"; \r\n\r\n" + chatId + "\r\n--IotCircuitHub\r\nContent-Disposition: form-data; name=\"photo\"; filename=\"esp32-cam.jpg\"\r\nContent-Type: image/jpeg\r\n\r\n";
     String tail = "\r\n--IotCircuitHub--\r\n";
 
     uint16_t imageLen = fb->len;
