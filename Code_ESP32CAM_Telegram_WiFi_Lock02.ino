@@ -1,18 +1,3 @@
-/**********************************************************************************
- *  TITLE: ESP32CAM Telegram WiFi Door Lock with photo capture
- *  Click on the following links to learn more. 
- *  YouTube Video: https://youtu.be/11V2ZzHpW3Q
- *  Related Blog : https://iotcircuithub.com/esp32-cam-telegram-wifi-door-lock
- *  by Tech StudyCell
- *  Preferences--> Aditional boards Manager URLs : 
- *  https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
- *  
- *  Download Board ESP32 : https://github.com/espressif/arduino-esp32
- *  Download the libraries
- *  Brian Lough's Universal Telegram Bot Library: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
- **********************************************************************************/
-
-
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include "soc/soc.h"
